@@ -7,7 +7,7 @@
 # version: V1
 # script : containing details of resource usage
 
-set-e
+set -e
 
 df -h 
 free -g
